@@ -1,0 +1,136 @@
+.screen {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url("../images/Netflix-Background.jpg");
+
+  background-size: 100% 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-bottom: solid 8px rgba(131, 128, 128, 0.5);
+}
+.screen h1 {
+  font-weight: bold;
+}
+.screen .data1 {
+  text-align: center;
+  padding: 30px 0;
+  color: white;
+}
+.data1 h1 {
+  font-size: 40px;
+  max-width: 800px;
+  text-align: center;
+  margin: 0 auto;
+}
+p {
+  font-size: 20px;
+}
+.watch {
+  font-size: 26px;
+}
+.email {
+  display: flex;
+  justify-content: center;
+}
+
+.email input {
+  padding: 15px 10px 15px;
+}
+.email input:focus {
+  outline: none;
+}
+.email button {
+  width: 245px;
+  background-color: red;
+  border: none;
+  color: white;
+  font-size: 30px;
+  height: 55px;
+}
+.searchbar {
+  padding-left: 70%;
+  padding-top: 15px;
+}
+.search {
+  padding: 10px;
+}
+.searchbtn {
+  background-color: blue;
+  padding: 12px;
+  color: white;
+}
+.main-scroll-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid gray;
+  /* margin-top: 20px; */
+}
+.imageDiv {
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+}
+.imgDivs {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  overflow-x: auto;
+  position: relative;
+  scroll-behavior: smooth;
+  column-gap: 1px;
+}
+
+.imgDivs::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+.icon {
+  color: rgb(67, 247, 76);
+  background-color: black;
+  font-size: 50px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  justify-content: center;
+}
+.icon:hover {
+  color: yellow;
+}
+.cover {
+  position: relative;
+  width: 100%;
+  height: 50%;
+}
+
+.detailsSection {
+  height: 500px;
+  width: 100%;
+  background-color: rgb(24, 23, 23);
+  margin: 20px;
+}
+.details {
+  margin-top: 15px;
+  display: flex;
+  height: 500px;
+  width: 100vw;
+  background-color: rgb(24, 23, 23);
+}
+.text {
+  color: white;
+  height: 40%;
+  width: 35%;
+  padding: 15px;
+}
+.section {
+  width: 65%;
+}
+.details div:nth-of-type(1) {
+  flex-basis: 1;
+}
+.details div:nth-of-type(2) {
+  flex-basis: 2;
+}
